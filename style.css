@@ -443,6 +443,9 @@ footer .text span a:hover {
 	}
 }
 @media (max-width: 750px) {
+	.skills-details .boxes .per {
+		font-size: 30px;
+	}
 	nav .navbar {
 		width: 90%;
 	}
@@ -518,10 +521,8 @@ footer .text span a:hover {
 	.home .text-three {
 		font-size: 33px;
 	}
-
 	.skills-details .boxes .per {
-		font-size: 40px;
-		color: var(--primary-color);
+		font-size: 25px;
 	}
 }
 
