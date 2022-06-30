@@ -191,7 +191,7 @@ $(function () {
 		},
 	});
 
-	bar.animate(0.95);
+	bar.animate(0.75);
 
 	var bar = new ProgressBar.Line(lineprog3, {
 		strokeWidth: 1.72,
@@ -208,7 +208,7 @@ $(function () {
 		},
 	});
 
-	bar.animate(0.75);
+	bar.animate(1.00);
 
 	var bar = new ProgressBar.Line(lineprog4, {
 		strokeWidth: 1.72,
@@ -225,7 +225,7 @@ $(function () {
 		},
 	});
 
-	bar.animate(0.65);
+	bar.animate(0.95);
 
 	var bar = new ProgressBar.Line(lineprog5, {
 		strokeWidth: 1.72,
@@ -295,8 +295,8 @@ $(function () {
 		transitionDuration: '.6s',
 	});
 
-	// slider testimonials
-	var swiper = new Swiper('.art-testimonial-slider', {
+	// slider projects
+	var swiper = new Swiper('.art-project-slider', {
 		slidesPerView: 3,
 		spaceBetween: 30,
 		speed: 1400,
@@ -529,8 +529,8 @@ $(function () {
 				);
 		});
 
-		// slider testimonials
-		var swiper = new Swiper('.art-testimonial-slider', {
+		// slider projects
+		var swiper = new Swiper('.art-project-slider', {
 			slidesPerView: 3,
 			spaceBetween: 30,
 			speed: 1400,

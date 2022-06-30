@@ -58,7 +58,7 @@ p.s. I am available for Freelance hire (UI design, web development). mail: mille
       - counters
       - services
       - price
-      - testimonials
+      - projects
       - timeline
       - contact form
       - blog
@@ -91,13 +91,13 @@ common
 
 ------------------------------ */
 /* ----- fonts ----- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* ----- text defaults ----- */
 body {
 	color: #8c8c8e;
 	font-size: 12px;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	font-smooth: subpixel-antialiased;
@@ -113,7 +113,7 @@ h6 {
 	font-weight: 700;
 	color: #fafafc;
 	margin-bottom: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -236,9 +236,9 @@ blockquote {
 }
 blockquote:before {
 	position: absolute;
-	font-family: 'Font Awesome 5 Free';
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-	content: '\f10d';
+	content: "\f10d";
 	font-size: 18px;
 	opacity: 0.5;
 	top: 5px;
@@ -247,9 +247,9 @@ blockquote:before {
 }
 blockquote:after {
 	position: absolute;
-	font-family: 'Font Awesome 5 Free';
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-	content: '\f10d';
+	content: "\f10d";
 	font-size: 18px;
 	opacity: 0.5;
 	bottom: 5px;
@@ -270,7 +270,7 @@ blockquote:after {
 	margin-bottom: 5px;
 }
 .art-custom-list li:before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 4px;
 	left: -25px;
@@ -328,8 +328,8 @@ link
 }
 .art-link.art-w-chevron:after {
 	position: absolute;
-	font-family: 'Font Awesome 5 free';
-	content: '\f054';
+	font-family: "Font Awesome 5 free";
+	content: "\f054";
 	font-weight: 900;
 	display: inline-block;
 	font-style: normal;
@@ -364,7 +364,7 @@ link
 	padding-right: 0;
 }
 .art-link.art-left-link.art-w-chevron:after {
-	content: '\f053';
+	content: "\f053";
 	left: 0;
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
@@ -474,7 +474,7 @@ space
 	margin-bottom: 15px;
 }
 
-.mb-15 > ul{
+.mb-15 > ul {
 	padding: 0 0 0 18px;
 }
 
@@ -1082,7 +1082,7 @@ info bar
 	z-index: 2;
 }
 .art-info-bar .art-header .art-avatar .art-lamp-light:before {
-	content: '';
+	content: "";
 	position: absolute;
 	bottom: -1px;
 	right: 1px;
@@ -1135,7 +1135,7 @@ info bar
 	.art-lamp-light
 	.art-available-lamp:after {
 	position: relative;
-	content: 'I am available for freelance hire';
+	content: "I am available for freelance hire";
 	width: 115px;
 	display: block;
 	padding: 5px 10px;
@@ -1160,7 +1160,7 @@ info bar
 	.art-avatar
 	.art-lamp-light
 	.art-available-lamp:before {
-	content: '';
+	content: "";
 	position: absolute;
 	height: 5px;
 	width: 5px;
@@ -1267,7 +1267,7 @@ info bar
 	.art-lang-skills-item
 	.art-cirkle-progress
 	.progressbar-text:after {
-	content: '%';
+	content: "%";
 	position: absolute;
 	right: -7px;
 }
@@ -1309,9 +1309,9 @@ info bar
 	margin-bottom: 0;
 }
 .art-info-bar .art-knowledge-list li:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-	content: '\f00c';
+	content: "\f00c";
 	margin-right: 5px;
 	font-size: 9px;
 	color: #ffc107;
@@ -1476,8 +1476,8 @@ menu bar
 }
 .art-menu-bar nav .main-menu .menu-item.menu-item-has-children:after {
 	position: absolute;
-	font-family: 'Font Awesome 5 free';
-	content: '\f054';
+	font-family: "Font Awesome 5 free";
+	content: "\f054";
 	font-weight: 900;
 	display: inline-block;
 	font-style: normal;
@@ -1701,7 +1701,7 @@ content
 
 /* ----- banner ----- */
 .art-banner-back {
-	content: '';
+	content: "";
 	position: absolute;
 	z-index: 0;
 	top: -30px;
@@ -1780,7 +1780,7 @@ content
 
 /* ----- typing code ----- */
 .art-code {
-	font-family: 'Courier Prime', monospace;
+	font-family: "Courier Prime", monospace;
 	color: #fafafc;
 }
 .art-code i {
@@ -1806,14 +1806,14 @@ content
 .art-counter-frame .art-counter-box .art-counter {
 	color: #ffc107;
 	font-weight: 600;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 22px;
 }
 .art-counter-frame .art-counter-box .art-counter-plus {
 	margin-left: 3px;
 	color: #ffc107;
 	font-weight: 600;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 22px;
 }
 
@@ -1872,7 +1872,7 @@ content
 	font-weight: 600;
 	color: #1e1e28;
 	right: -72px;
-	content: 'POPULAR';
+	content: "POPULAR";
 	padding: 2px;
 	width: 200px;
 	text-align: center;
@@ -1931,9 +1931,9 @@ content
 	margin-bottom: 15px;
 }
 .art-price .art-price-body .art-price-list li:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-	content: '\f00c';
+	content: "\f00c";
 	margin-right: 5px;
 	font-size: 9px;
 	color: #ffc107;
@@ -1942,9 +1942,9 @@ content
 	opacity: 0.3;
 }
 .art-price .art-price-body .art-price-list li.art-empty-item:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-	content: '\f00d';
+	content: "\f00d";
 	margin-right: 5px;
 	font-size: 9px;
 	color: #ffc107;
@@ -1953,12 +1953,12 @@ content
 	margin: 0;
 }
 
-/* ----- testimonials ----- */
-.art-testimonial-slider {
+/* ----- projects ----- */
+.art-project-slider {
 	width: 100%;
 }
 
-.art-testimonial {
+.art-project {
 	position: relative;
 	background-size: cover;
 	padding: 30px;
@@ -1966,12 +1966,12 @@ content
 	-webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 	box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
-.art-testimonial .testimonial-body {
+.art-project .project-body {
 	width: 100%;
 	height: 100%;
 	z-index: 0;
 }
-.art-testimonial .testimonial-body .art-testimonial-face {
+.art-project .project-body .art-project-logo {
 	position: absolute;
 	-o-object-fit: cover;
 	object-fit: cover;
@@ -1979,11 +1979,11 @@ content
 	top: -15px;
 	width: 65px;
 	height: 65px;
-	border-radius: 50%;
+	border-radius: 1%;
 	-webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 	box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
-.art-testimonial .art-testimonial-footer {
+.art-project .art-project-footer {
 	position: relative;
 	overflow: hidden;
 	display: -webkit-box;
@@ -1995,7 +1995,7 @@ content
 	-ms-flex-line-pack: center;
 	align-content: center;
 }
-.art-testimonial .art-testimonial-footer .art-star-rate {
+.art-project .art-project-footer .art-star-rate {
 	padding: 0;
 	margin: 0;
 	-webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2010,14 +2010,14 @@ content
 	display: flex;
 	color: #ffc107;
 }
-.art-testimonial .art-testimonial-footer .art-star-rate li {
+.art-project .art-project-footer .art-star-rate li {
 	list-style-type: none;
 	margin-right: 5px;
 }
-.art-testimonial .art-testimonial-footer .art-star-rate li.art-empty-item {
+.art-project .art-project-footer .art-star-rate li.art-empty-item {
 	color: rgba(43, 43, 53, 0.98);
 }
-.art-testimonial .art-testimonial-footer .art-testimonial-icon {
+.art-project .art-project-footer .art-project-icon {
 	position: absolute;
 	left: 45%;
 	top: 20px;
@@ -2083,7 +2083,7 @@ content
 	position: relative;
 }
 .art-timeline::before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 10px;
 	right: 5px;
@@ -2137,7 +2137,7 @@ content
 	background-color: rgba(43, 43, 53, 0.98);
 	-webkit-transform: rotate(-135deg);
 	transform: rotate(-135deg);
-	content: '';
+	content: "";
 	position: absolute;
 	top: 11px;
 	right: -5px;
@@ -2501,7 +2501,7 @@ portfolio
 	/* clear fix */
 }
 .art-grid:after {
-	content: '';
+	content: "";
 	display: block;
 	clear: both;
 }
@@ -2916,7 +2916,7 @@ burger button
 .art-menu-bar-btn span,
 .art-menu-bar-btn span:after,
 .art-menu-bar-btn span:before {
-	content: '';
+	content: "";
 	display: block;
 	width: 15px;
 	height: 3px;

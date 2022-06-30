@@ -254,36 +254,36 @@ content
     }
   }
 }
-/* ----- testimonials ----- */
-.art-testimonial-slider {
+/* ----- projects ----- */
+.art-project-slider {
   width: 100%;
 }
 
-.art-testimonial {
+.art-project {
   position: relative;
   background-size: cover;
   padding: 30px;
   background: $card-color;
   box-shadow: $shadow-1;
 
-  & .testimonial-body {
+  & .project-body {
     width: 100%;
     height: 100%;
     z-index: 0;
 
-    & .art-testimonial-face {
+    & .art-project-logo {
       position: absolute;
       object-fit: cover;
       right: 30px;
       top: -15px;
       width: 65px;
       height: 65px;
-      border-radius: 50%;
+      border-radius: 1%;
       box-shadow: $shadow-1;
     }
   }
 
-  & .art-testimonial-footer {
+  & .art-project-footer {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -312,7 +312,7 @@ content
       }
     }
 
-    & .art-testimonial-icon {
+    & .art-project-icon {
       position: absolute;
       left: 45%;
       top: 20px;
