@@ -275,7 +275,7 @@
           <div class="art-curtain"></div>
 
           <!-- top background -->
-          <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+          <div class="art-top-bg" style="">
             <!-- overlay -->
             <div class="art-top-bg-overlay"></div>
             <!-- overlay end -->
@@ -557,7 +557,59 @@
 
   <!-- index js -->
   <script src="js/index.js"></script>
+  <script>
+    document.getElementById("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const form = e.target;
+    const submitButton = form.querySelector('button[type="submit"]');
+    const successMessage = form.querySelector(".art-success");
 
+    // Disable submit button
+    submitButton.disabled = true;
+
+    // Get form data
+    const formData = new FormData(form);
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
+
+    // Create a beautifully formatted email body
+    const emailBody = `
+Hello Ajay,
+
+I'm reaching out from your portfolio website.
+
+Name: ${data.name}
+Email: ${data.email}
+
+Message:
+${data.message}
+
+Looking forward to connecting with you!
+
+Best regards,
+${data.name}
+      `;
+
+    // Open default email client with formatted body
+    const mailtoLink = `mailto:ajay.vish2212@gmail.com?subject=Portfolio Contact - ${encodeURIComponent(
+      data.name
+    )}&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = mailtoLink;
+
+    // Show success message
+    successMessage.style.display = "block";
+    form.reset();
+    setTimeout(() => {
+      successMessage.style.display = "none";
+    }, 3000);
+
+    // Re-enable submit button
+    submitButton.disabled = false;
+  });
+  </script>
 </body>
 
 </html>
